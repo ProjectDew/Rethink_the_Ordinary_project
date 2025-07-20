@@ -13,4 +13,3 @@ TIMEOUT,Te has dormido en los laureles.\nPor tu culpa esta persona desconocida l
 DEATH_GENERIC,El personaje ha muerto sin que se sepa bien cómo,\npero probablemente de forma estúpida.
 DEATH,El personaje ha muerto al intentar {0} en {1}.
 SUCCESS,Aquí había un plot twist, pero he tenido una semana ocupada,\nasí que el plot twist es que no hay plot twist. =D
-TEST2,Este texto\random\ se pro\ce\sa
