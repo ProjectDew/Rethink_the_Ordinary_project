@@ -1,0 +1,29 @@
+.propertyBar {
+    flex-direction: column;
+}
+
+.propertyIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.propertyContainer {
+    flex-direction: row;
+    align-items: center;
+}
+
+.unity-progress-bar__background {
+    background-color: rgb(48, 48, 48);
+}
+
+#FireBar .unity-progress-bar__progress {
+    background-color: rgb(221, 119, 89);
+}
+
+#ElectricityBar .unity-progress-bar__progress {
+    background-color: rgb(227, 236, 110);
+}
+
+#WaterBar .unity-progress-bar__progress {
+    background-color: rgb(113, 233, 223);
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f857b10b9416b664f85b398dc17b8797, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  timeoutDialogue: "Te has dormido en los laureles.\nPor tu culpa esta persona desconocida
+    llegar\xE1 tarde al trabajo..."
+  goodEndingDialogue: "Aqu\xED hab\xEDa un plot twist, pero he tenido una semana
+    ocupada,\nas\xED que el plot twist es que no hay plot twist. =D"
+  dialogueNotFoundError: DIALOGUE_NOT_FOUND
+  initialTime: 60
+  characterSpeed: 2
+  initialPropertyValue: 25
+  propertyValueChange: 10
+  propertyDangerThreshold: 50

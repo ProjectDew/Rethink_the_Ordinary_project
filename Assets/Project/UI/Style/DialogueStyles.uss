@@ -1,0 +1,7 @@
+.dialogueButton {
+    -unity-background-image-tint-color: rgb(53, 123, 53);
+}
+
+.dialogueButton:hover {
+    -unity-background-image-tint-color: rgb(94, 214, 95);
+}

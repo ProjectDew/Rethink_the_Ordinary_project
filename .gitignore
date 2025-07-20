@@ -1,0 +1,16 @@
+/*
+
+!.gitignore
+!*.sln
+!*.csproj
+
+!Assets/
+!Assets/**
+
+Assets/**
+
+!Assets/**/
+!Assets/Project/
+!Assets/Project/**
+!Assets/ProjectDew/
+!Assets/ProjectDew/**

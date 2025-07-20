@@ -1,0 +1,136 @@
+.selectTaskButton {
+    width: 40%;
+    margin-left: 10px;
+    font-size: 24px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(48, 48, 48);
+    margin-right: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.acceptTaskButton {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    width: 20%;
+    font-size: 24px;
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+    color: rgb(94, 214, 95);
+    border-left-color: rgb(94, 214, 95);
+    border-right-color: rgb(94, 214, 95);
+    border-top-color: rgb(94, 214, 95);
+    border-bottom-color: rgb(94, 214, 95);
+    margin-left: 30px;
+}
+
+.elementIcon {
+    width: 48px;
+    height: 48px;
+}
+
+.operatorIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.operatorIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.footerSides {
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 64px;
+    height: 64px;
+}
+
+.footerSides:hover {
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.acceptTaskButton:hover {
+    color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+.selectTaskButton:hover {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.selectTaskLabel {
+    width: 40%;
+    margin-left: 10px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+}
+
+.selectTaskButton {
+    width: 40%;
+    margin-left: 10px;
+    font-size: 24px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(48, 48, 48);
+    margin-right: 30px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.elementsContainer {
+    flex-direction: row;
+    align-items: center;
+    width: 25%;
+}

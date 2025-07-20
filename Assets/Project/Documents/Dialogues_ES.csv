@@ -1,0 +1,16 @@
+TUTORIAL_1,¡Eh, tú! La persona de la habitación lleva una vida normal y corriente,\npero de pronto ha empezado a absorber propiedades de los objetos.
+TUTORIAL_2,¡Ahora tiene fuego, electricidad y agua corriendo por sus venas!\nPero necesita regularlas continuamente...
+TUTORIAL_3,¿Qué tiene que ver esto contigo? ¡Pues que le vas a ayudar!\nDebe llegar a tiempo al trabajo cada mañana sin morir en el intento.
+TUTORIAL_4,¿Cómo? Pues, si vas a tope de calor (fuego) y electricidad,\npuedes preparar la comida en el sofá en vez del microondas.
+TUTORIAL_5,Aunque preparar comida requiere fuego y el sofá es inflamable,\nasí que quizá no sea la idea más brillante... Pero eso ya es cosa tuya.
+TUTORIAL_6,Ah, y el tiempo corre, ¡así que date vida!
+TUTORIAL_7,Arrastra la cámara pulsando el botón de scroll o gíralo para hacer zoom.\nHaz clic en cualquier objeto para asignarle una tarea.
+OBJECT_NEUTRAL_1,A ver qué pasa
+OBJECT_DEADLY_1,Claro, ¿por qué no?
+OBJECT_DEADLY_2,¿Qué crees que va a ocurrir?
+SELECTED_OBJECT,Ese objeto ya lo has seleccionado hoy, así que hasta mañana nada.\nDeal with it.
+TIMEOUT,Te has dormido en los laureles.\nPor tu culpa esta persona desconocida llegará tarde al trabajo...
+DEATH_GENERIC,El personaje ha muerto sin que se sepa bien cómo,\npero probablemente de forma estúpida.
+DEATH,El personaje ha muerto al intentar {0} en {1}.
+SUCCESS,Aquí había un plot twist, pero he tenido una semana ocupada,\nasí que el plot twist es que no hay plot twist. =D
+TEST2,Este texto\random\ se pro\ce\sa

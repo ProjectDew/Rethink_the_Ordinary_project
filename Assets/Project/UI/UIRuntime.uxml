@@ -1,0 +1,35 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style/RuntimeStyles.uss?fileID=7433441132597879392&amp;guid=3f1710150da70574fbac5830ba583511&amp;type=3#RuntimeStyles" />
+    <Style src="project://database/Assets/UI/Style/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=b8e09710cc9e25c479bde7afd6fc8f29&amp;type=3#GlobalStyles" />
+    <engine:VisualElement name="Base" style="height: 20%;">
+        <engine:VisualElement name="TopContainer" style="flex-grow: 1; flex-direction: row; justify-content: flex-start; align-content: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+            <engine:VisualElement name="BarsContainer" style="width: 50%;">
+                <engine:VisualElement name="FireContainer" class="propertyContainer">
+                    <engine:VisualElement name="FireIcon" class="propertyIcon" style="background-image: url(&quot;project://database/Assets/ThirdParty/Sprites/fire.png?fileID=21300000&amp;guid=76312354073680b44840a29a3dbd9d7a&amp;type=3#fire&quot;); width: 48px; height: 48px; -unity-background-image-tint-color: rgb(221, 119, 89);" />
+                    <engine:VisualElement name="FireBarContainer" style="flex-grow: 1;">
+                        <engine:ProgressBar value="25" name="FireBar" high-value="50" class="propertyBar" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="ElectricityContainer" class="propertyContainer">
+                    <engine:VisualElement name="ElectricityIcon" class="propertyIcon" style="background-image: url(&quot;project://database/Assets/ThirdParty/Sprites/flash-symbol.png?fileID=21300000&amp;guid=f85c317fef1bf4d44834b872cf73cd1a&amp;type=3#flash-symbol&quot;); width: 48px; height: 48px; -unity-background-image-tint-color: rgb(227, 236, 110);" />
+                    <engine:VisualElement name="ElectricityBarContainer" style="flex-grow: 1;">
+                        <engine:ProgressBar value="25" name="ElectricityBar" high-value="50" class="propertyBar" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement name="WaterContainer" class="propertyContainer">
+                    <engine:VisualElement name="WaterIcon" class="propertyIcon" style="background-image: url(&quot;project://database/Assets/ThirdParty/Sprites/water-drop.png?fileID=21300000&amp;guid=2239cc4d151461240bebb0901509df23&amp;type=3#water-drop&quot;); width: 48px; height: 48px; -unity-background-image-tint-color: rgb(113, 233, 223);" />
+                    <engine:VisualElement name="WaterBarContainer" style="flex-grow: 1;">
+                        <engine:ProgressBar value="25" name="WaterBar" high-value="50" class="propertyBar" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="Padding" style="flex-grow: 1;" />
+            <engine:VisualElement name="ClockContainer" style="flex-grow: 1; flex-direction: row; justify-content: center; align-items: flex-start; background-color: rgba(0, 0, 0, 0);">
+                <engine:VisualElement name="ClockIcon" style="background-image: url(&quot;project://database/Assets/ThirdParty/Sprites/wall-clock.png?fileID=21300000&amp;guid=712be854074dfa949a2bac6a22c8b5ac&amp;type=3#wall-clock&quot;); width: 128px; height: 128px; -unity-background-image-tint-color: rgb(48, 48, 48);" />
+                <engine:Label text="60" name="TimeLeftLabel" style="width: 128px; height: 128px; -unity-text-align: middle-center; font-size: 60px; -unity-font-style: bold; color: rgb(48, 48, 48);" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Padding" style="flex-grow: 1;" />
+            <engine:Button name="PauseButton" class="generalButton" style="background-image: url(&quot;project://database/Assets/ThirdParty/Sprites/pause.png?fileID=21300000&amp;guid=17446399b2c873440b666c8ac93956c8&amp;type=3#pause&quot;);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

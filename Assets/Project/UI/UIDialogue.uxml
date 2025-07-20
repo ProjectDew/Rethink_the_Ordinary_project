@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=b8e09710cc9e25c479bde7afd6fc8f29&amp;type=3#GlobalStyles" />
+    <Style src="project://database/Assets/UI/Style/DialogueStyles.uss?fileID=7433441132597879392&amp;guid=b794dc3eb0ffd6b4685bc15019987a73&amp;type=3#DialogueStyles" />
+    <engine:VisualElement name="Root" style="height: 20%; top: 80%; padding-bottom: 10px;">
+        <engine:VisualElement name="DialogueContainer" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/ThirdParty/Sprites/bars.png?fileID=21300000&amp;guid=4eb19d1ae30e70b40a6ca4a9eb85d480&amp;type=3#bars&quot;); align-items: center; justify-content: center; background-size: 100% 500%; padding-top: 20px; padding-right: 10%; padding-bottom: 20px; padding-left: 10%; opacity: 1; display: flex;">
+            <engine:Label text="[ERROR: DIALOGUE NOT FOUND]" name="DialogueLabel" style="width: 100%; height: 60%; -unity-text-align: upper-center; font-size: 38px; color: rgb(48, 48, 48);" />
+            <engine:Button name="DialogueAcceptButton" class="generalButton dialogueButton" style="height: 80px; width: 80px; background-image: url(&quot;project://database/Assets/ThirdParty/Sprites/btn-round-check.png?fileID=21300000&amp;guid=a4f4189e60143574e96e0357f1b51815&amp;type=3#btn-round-check&quot;); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
