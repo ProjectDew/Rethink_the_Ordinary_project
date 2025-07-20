@@ -1,4 +1,4 @@
-# Rethink the Ordinary
+# Rethink the Ordinary (provisional title)
 
 This is a WIP game originally planned for the Level Up Game Jam 2025. I had a busy week and couldn't participate, but I think the idea is kinda cool (to try not to be late for work and not die stupidly in the process), so I've decided to finish it anyway.
 
